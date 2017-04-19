@@ -13,7 +13,7 @@ npmdoc-grunt-mocha-test@0.0.1 /home/travis/build/npmdoc/node-npmdoc-grunt-mocha-
   │ │ └── wrappy@1.0.2 
   │ ├── inherits@2.0.3 
   │ ├─┬ minimatch@3.0.3 
-  │ │ └─┬ brace-expansion@1.1.6 
+  │ │ └─┬ brace-expansion@1.1.7 
   │ │   ├── balanced-match@0.4.2 
   │ │   └── concat-map@0.0.1 
   │ ├── once@1.4.0 

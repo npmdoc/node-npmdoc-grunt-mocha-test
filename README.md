@@ -1,9 +1,14 @@
-# api documentation for  [grunt-mocha-test (v0.13.2)](https://github.com/pghalliday/grunt-mocha-test)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-mocha-test.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-mocha-test) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-mocha-test.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-mocha-test)
+# npmdoc-grunt-mocha-test
+
+#### api documentation for  [grunt-mocha-test (v0.13.2)](https://github.com/pghalliday/grunt-mocha-test)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-mocha-test.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-mocha-test) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-mocha-test.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-mocha-test)
+
 #### A grunt task for running server side mocha tests
 
-[![NPM](https://nodei.co/npm/grunt-mocha-test.png?downloads=true)](https://www.npmjs.com/package/grunt-mocha-test)
+[![NPM](https://nodei.co/npm/grunt-mocha-test.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-mocha-test)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-mocha-test_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-mocha-test/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Peter Halliday",
-        "email": "pghalliday@gmail.com",
         "url": "http://pghalliday.github.io/"
     },
     "bugs": {
@@ -72,8 +76,7 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "pghalliday",
-            "email": "pghalliday@gmail.com"
+            "name": "pghalliday"
         }
     ],
     "name": "grunt-mocha-test",
@@ -81,7 +84,6 @@
     "peerDependencies": {
         "mocha": ">=1.20.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/pghalliday/grunt-mocha-test.git"
@@ -93,16 +95,6 @@
     "version": "0.13.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-mocha-test](#apidoc.module.grunt-mocha-test)
-
-
-
-# <a name="apidoc.module.grunt-mocha-test"></a>[module grunt-mocha-test](#apidoc.module.grunt-mocha-test)
 
 
 
