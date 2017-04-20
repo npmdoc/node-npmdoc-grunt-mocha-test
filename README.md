@@ -21,12 +21,28 @@
 ```json
 
 {
+    "name": "grunt-mocha-test",
+    "description": "A grunt task for running server side mocha tests",
+    "version": "0.13.2",
+    "homepage": "https://github.com/pghalliday/grunt-mocha-test",
     "author": {
         "name": "Peter Halliday",
         "url": "http://pghalliday.github.io/"
     },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pghalliday/grunt-mocha-test.git"
+    },
     "bugs": {
         "url": "https://github.com/pghalliday/grunt-mocha-test/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">= 0.10.4"
+    },
+    "scripts": {
+        "test": "grunt",
+        "ci": "grunt ci"
     },
     "config": {
         "travis-cov": {
@@ -37,7 +53,9 @@
         "hooker": "^0.2.3",
         "mkdirp": "^0.5.0"
     },
-    "description": "A grunt task for running server side mocha tests",
+    "peerDependencies": {
+        "mocha": ">=1.20.0"
+    },
     "devDependencies": {
         "chai": "^3.5.0",
         "coffee-script": "^1.10.0",
@@ -54,45 +72,15 @@
         "mocha": "^3.0.2",
         "rimraf": "^2.5.0"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "0f3abcc6ab543647b1effc5ab44ebd3702f0ab8c",
-        "tarball": "https://registry.npmjs.org/grunt-mocha-test/-/grunt-mocha-test-0.13.2.tgz"
-    },
-    "engines": {
-        "node": ">= 0.10.4"
-    },
-    "files": [
-        "tasks",
-        "LICENSE-MIT"
-    ],
-    "gitHead": "19af1b447f9883bd59e92ce4ad308f3668d85740",
-    "homepage": "https://github.com/pghalliday/grunt-mocha-test",
     "keywords": [
         "gruntplugin",
         "mocha",
         "test"
     ],
-    "license": "MIT",
-    "maintainers": [
-        {
-            "name": "pghalliday"
-        }
-    ],
-    "name": "grunt-mocha-test",
-    "optionalDependencies": {},
-    "peerDependencies": {
-        "mocha": ">=1.20.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/pghalliday/grunt-mocha-test.git"
-    },
-    "scripts": {
-        "ci": "grunt ci",
-        "test": "grunt"
-    },
-    "version": "0.13.2"
+    "files": [
+        "tasks",
+        "LICENSE-MIT"
+    ]
 }
 ```
 
